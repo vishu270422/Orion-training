@@ -29,7 +29,7 @@
     background: var(--grey-light);
   }
   
-  /* Typography */
+  
   .center {
     text-align: center;
   }
@@ -52,7 +52,7 @@
     margin: 24px 0;
   }
   
-  /* Cards */
+
   .card-wrapper {
     margin: 0 auto;
     padding: 90px 30px;
@@ -84,7 +84,7 @@
     }
   }
   
-  /* Forms */
+  
   form {
     transition: opacity .15s ease;
   }
@@ -135,7 +135,7 @@
     display: none;
   }
   
-  /* Buttons */
+  
   .btn {
     margin: 0 0 24px;
     padding: 11px 30px 10px;
