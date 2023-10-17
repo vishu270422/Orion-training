@@ -19,7 +19,6 @@ def login_required(f):
   
   return wrap
 
-# Routes
 from user import routes
 
 @app.route('/')
