@@ -5,7 +5,7 @@ from werkzeug.security import check_password_hash, generate_password_hash
 
 app = Flask(__name__)
 app.secret_key = b'\xcc^\x91\xea\x17-\xd0W\x03\xa7\xf8J0\xac8\xc5'
-app.config['MONGO_URI'] = 'mongodb://localhost:27017/mydb'
+app.config['MONGO_URI'] = 'mongodb://localhost:27017/flaskdb'
 mongo = PyMongo(app)
 users_collection = mongo.db.users
 
@@ -39,7 +39,7 @@ def login():
                 if email == 'vishu@1234.com':
                     return render_template('admin.html')
             return redirect(url_for('profile'))
-        return 'Invalid email or password. Please try again.'
+        return 'Login First. Please try again.'
     return render_template('login.html')
 
 
