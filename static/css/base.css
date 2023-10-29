@@ -1,38 +1,31 @@
-/* Reset default margin and padding */
-body, h1, p, a {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Set a background color for the body */
-  body {
-    background-color: #f2f2f2;
+
+body {
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     text-align: center;
-    padding: 20px;
   }
   
-  /* Style the heading */
   h1 {
-    font-size: 24px;
     color: #333;
-    margin-bottom: 20px;
   }
   
-  /* Style the paragraph */
-  p {
-    font-size: 18px;
-    color: #444;
-  }
-  
-  /* Style the links */
-  a {
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
     text-decoration: none;
-    color: #007BFF;
-    font-weight: bold;
   }
   
-  a:hover {
-    text-decoration: underline;
+  button a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
   }
   
